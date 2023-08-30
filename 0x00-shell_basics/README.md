@@ -6,3 +6,4 @@ The task (4) creates a scrpit that list even all hidden files in a long format
 Task (5) gives more details to task (4) in numbers
 Task (6) creates a directory in another directory
 The(7) task moves a file into another directory using a script
+The task (8) creates a script that delete a file from a particular folder

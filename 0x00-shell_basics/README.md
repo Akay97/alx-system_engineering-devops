@@ -5,3 +5,4 @@ The task (3) creates a script that list the current working directory contents i
 The task (4) creates a scrpit that list even all hidden files in a long format
 Task (5) gives more details to task (4) in numbers
 Task (6) creates a directory in another directory
+The(7) task moves a file into another directory using a script

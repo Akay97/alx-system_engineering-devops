@@ -12,3 +12,4 @@ Task (10) creates a script that returns a user to the prevoius working directory
 Task (11) creates a script that list all content and hidden files of the directory current, parent and /boot
 task (12) creates a script that check the file type in a directory
 Task (13) creates a sybolic link
+Task (14) copies files with the .html extention

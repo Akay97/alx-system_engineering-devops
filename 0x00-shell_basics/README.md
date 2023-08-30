@@ -10,3 +10,4 @@ The task (8) creates a script that delete a file from a particular folder
 The task (9) deletes the directory of the file deleted in task (8)
 Task (10) creates a script that returns a user to the prevoius working directory
 Task (11) creates a script that list all content and hidden files of the directory current, parent and /boot
+task (12) creates a script that check the file type in a directory

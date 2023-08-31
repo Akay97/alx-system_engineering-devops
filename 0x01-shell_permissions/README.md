@@ -7,3 +7,4 @@ Task (5) creates a script that give the user executable permission
 Task (6) writes a scripts that give permission to the user, group and others
 Task (7) writes a scrpits that gives executable permission to the user, group, and others
 Task (8) will give all permission to the other user but exclude user and group
+Task (9) changed the mode of the file "hello" to 753

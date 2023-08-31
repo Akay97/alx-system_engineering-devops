@@ -1,2 +1,3 @@
 Task(0) Create a script that switches the current user to the user betty.
-Task (1) creates a script that prints thee name of the user
+Task (1) creates a script that prints the name of the user
+Task (2) creates a script that prints all the groups that the user is in

@@ -10,3 +10,4 @@ Task (8) will give all permission to the other user but exclude user and group
 Task (9) changed the mode of the file "hello" to 753
 Task (10) writes a script that changes the mode of two files in reference to each other
 Task (11) writes a script that add permission to the current directory and its subdirectories
+Task (12) creates a script that makes a directory and assigned a mode of 751 to it

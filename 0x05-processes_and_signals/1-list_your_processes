@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# This script displays a list of currently running processes
+
+# Display headers
+echo "PID    PPID   USER       COMMAND"
+
+# Function to recursively print process hierarchy
+print_process_hierarchy() {
+    local pid=$1
+    local depth=$2
+
+    # Extract process information
+    ppid=$(ps -o ppid= -p "$pid")
+    user=$(ps -o user= -p "$pid")
+    command=$(ps -o comm= -p "$pid")
+
+    # Display process information with indentation based on depth
+    printf "%-6s %-6s %-10s %${depth}s%s\n" "$pid" "$ppid" "$user" " " "$command"
+
+    # Find child processes and recursively call the function
+    children=$(pgrep -P "$pid")
+    for child_pid in $children; do
+        print_process_hierarchy "$child_pid" $((depth + 4))
+    done
+}
+
+# Iterate through each process
+for pid in $(pgrep -a .); do
+    print_process_hierarchy "$pid 0"
+done
